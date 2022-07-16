@@ -1,6 +1,6 @@
 module.exports = {
   verbose: true,
-  testRegex: ['.*\\.spec\\.(js|ts)$'],
+  testRegex: ['.*\\.test\\.(js|ts)$'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/'],
   transform: {
     '^.+\\.ts$': 'ts-jest',
